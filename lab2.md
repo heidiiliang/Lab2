@@ -47,12 +47,13 @@
 	#read a compressed file
 	import gzip
 	with gzip.open('filepath', 'rb') as f:
-    	 file_content = f.read()
+	 file_content = f.read()
+	<br />
 	#write a compressed file
 	import gzip
 	content = b"Lots of content here"
 	with gzip.open('/home/joe/file.txt.gz', 'wb') as f:
-    	f.write(content)
+	 f.write(content)
 	```
 
 # File processing in R
@@ -90,8 +91,10 @@
 	```
 	#write a compressed file
 	write.table(tst.df,gzfile("test.dat.gz"))
+	<br />
 	#read a compressed file
 	read.table(gzfile("test.dat.gz"),row.names=1)
 	```
 
-updated answers-2
+update answers-2
+update format

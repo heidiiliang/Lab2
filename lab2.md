@@ -87,6 +87,7 @@
 	```
 
 8 How do you open gzip-compressed files for reading and for writing?
+
 	```
 	#write a compressed file
 	write.table(tst.df,gzfile("test.dat.gz"))
